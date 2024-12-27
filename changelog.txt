@@ -1,0 +1,62 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.8
+Date: 2024-12-26
+  Bugfixes:
+    - Removed settings for quality range and quality modules slots as they are not yet finished
+---------------------------------------------------------------------------------------------------
+Version: 2.0.7
+Date: 2024-12-26
+  Bugfixes:
+    - Adjusted icon placement of modules in ALT mode
+  Locale:
+    - Added language support for japanese, made by BIRD_448
+---------------------------------------------------------------------------------------------------
+Version: 2.0.6
+Date: 2024-11-30
+  Features:
+    - Added setting for Beacon range
+    - Added setting for Beacon module count
+    - Added setting for Distribution Effectivity
+    - Added setting for Distribution Effectivity per Quality Level
+  Info:
+    - Working on adding a setting for Beacon module count per Quality Level
+    - Working on adding a setting for Beacon Range increase per Quality Level
+    - Prototype of settings above is already in the files but I couldn't make it work yet. Maybe someone can take a look at it
+    - Known Issue: Rocket Capacity wrong with unrestricted productivity -> Working on that
+  Bugfixes:
+    - Removed deprecated settings
+    - Renamed settings to better fit into what they do
+    - Removed deprecated code
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: 2024-11-08
+  Bugfixes:
+    - Removed the requirement to have the recipe restriction enabled for the max. productivity bonus to work
+    - Removed the requirement to have productivity in beacons setting enabled for quality modules in beacons to work
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 2024-10-31
+  Features:
+    - Added option to enable quality in (modded) beacons. ONLY works when productivity in beacons is enabled! (for now)
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 2024-10-29
+  Features:
+    - Added option to increase the maximum productivity cap for recipes
+  Bugfixes:
+    - Recipes for items of other mods that load in data-final-fixes can now be used with Productivity Modules
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-10-26
+  Bugfixes:
+    - Fixed Quality Modules not being able to put into machines
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2024-10-26
+  Bugfixes:
+    - Fixed missing file
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-10-26
+  Info:
+    - Updated to 2.0
